@@ -1,0 +1,561 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WAPDA DIGITAL</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+    <script defer="" src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+<link rel="icon" type="image/png" href="images/favicon1.png">
+
+    <style>
+      body {
+        font-family: "Inter", sans-serif;
+      }
+      [x-cloak] {
+        display: none !important;
+      }
+    </style>
+  <style>*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/* ! tailwindcss v3.4.16 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border-width:0}.absolute{position:absolute}.relative{position:relative}.inset-0{inset:0px}.mx-auto{margin-left:auto;margin-right:auto}.-mr-2{margin-right:-0.5rem}.ml-16{margin-left:4rem}.ml-3{margin-left:0.75rem}.mt-1{margin-top:0.25rem}.mt-10{margin-top:2.5rem}.mt-12{margin-top:3rem}.mt-2{margin-top:0.5rem}.mt-3{margin-top:0.75rem}.mt-4{margin-top:1rem}.mt-5{margin-top:1.25rem}.mt-8{margin-top:2rem}.block{display:block}.flex{display:flex}.inline-flex{display:inline-flex}.grid{display:grid}.hidden{display:none}.h-14{height:3.5rem}.h-16{height:4rem}.h-6{height:1.5rem}.h-8{height:2rem}.w-14{width:3.5rem}.w-6{width:1.5rem}.w-8{width:2rem}.w-full{width:100%}.max-w-2xl{max-width:42rem}.max-w-4xl{max-width:56rem}.max-w-7xl{max-width:80rem}.max-w-full{max-width:100%}.flex-1{flex:1 1 0%}.flex-shrink-0{flex-shrink:0}.grid-cols-1{grid-template-columns:repeat(1, minmax(0, 1fr))}.grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.flex-col{flex-direction:column}.items-center{align-items:center}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-12{gap:3rem}.gap-8{gap:2rem}.space-x-2 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(0.5rem * var(--tw-space-x-reverse));margin-left:calc(0.5rem * calc(1 - var(--tw-space-x-reverse)))}.space-x-4 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(1rem * var(--tw-space-x-reverse));margin-left:calc(1rem * calc(1 - var(--tw-space-x-reverse)))}.space-x-6 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(1.5rem * var(--tw-space-x-reverse));margin-left:calc(1.5rem * calc(1 - var(--tw-space-x-reverse)))}.space-y-1 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.25rem * var(--tw-space-y-reverse))}.space-y-10 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(2.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(2.5rem * var(--tw-space-y-reverse))}.space-y-4 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1rem * var(--tw-space-y-reverse))}.space-y-8 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(2rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(2rem * var(--tw-space-y-reverse))}.divide-y-2 > :not([hidden]) ~ :not([hidden]){--tw-divide-y-reverse:0;border-top-width:calc(2px * calc(1 - var(--tw-divide-y-reverse)));border-bottom-width:calc(2px * var(--tw-divide-y-reverse))}.divide-gray-200 > :not([hidden]) ~ :not([hidden]){--tw-divide-opacity:1;border-color:rgb(229 231 235 / var(--tw-divide-opacity, 1))}.overflow-hidden{overflow:hidden}.rounded-lg{border-radius:0.5rem}.rounded-md{border-radius:0.375rem}.border{border-width:1px}.border-b-2{border-bottom-width:2px}.border-l-4{border-left-width:4px}.border-t{border-top-width:1px}.border-gray-200{--tw-border-opacity:1;border-color:rgb(229 231 235 / var(--tw-border-opacity, 1))}.border-gray-300{--tw-border-opacity:1;border-color:rgb(209 213 219 / var(--tw-border-opacity, 1))}.border-gray-800{--tw-border-opacity:1;border-color:rgb(31 41 55 / var(--tw-border-opacity, 1))}.border-transparent{border-color:transparent}.bg-gray-100{--tw-bg-opacity:1;background-color:rgb(243 244 246 / var(--tw-bg-opacity, 1))}.bg-gray-900{--tw-bg-opacity:1;background-color:rgb(17 24 39 / var(--tw-bg-opacity, 1))}.bg-indigo-100{--tw-bg-opacity:1;background-color:rgb(224 231 255 / var(--tw-bg-opacity, 1))}.bg-indigo-500{--tw-bg-opacity:1;background-color:rgb(99 102 241 / var(--tw-bg-opacity, 1))}.bg-indigo-600{--tw-bg-opacity:1;background-color:rgb(79 70 229 / var(--tw-bg-opacity, 1))}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1))}.p-2{padding:0.5rem}.p-6{padding:1.5rem}.px-1{padding-left:0.25rem;padding-right:0.25rem}.px-3{padding-left:0.75rem;padding-right:0.75rem}.px-4{padding-left:1rem;padding-right:1rem}.px-5{padding-left:1.25rem;padding-right:1.25rem}.px-8{padding-left:2rem;padding-right:2rem}.py-12{padding-top:3rem;padding-bottom:3rem}.py-16{padding-top:4rem;padding-bottom:4rem}.py-2{padding-top:0.5rem;padding-bottom:0.5rem}.py-20{padding-top:5rem;padding-bottom:5rem}.py-3{padding-top:0.75rem;padding-bottom:0.75rem}.pb-3{padding-bottom:0.75rem}.pl-3{padding-left:0.75rem}.pr-4{padding-right:1rem}.pt-1{padding-top:0.25rem}.pt-2{padding-top:0.5rem}.pt-4{padding-top:1rem}.pt-8{padding-top:2rem}.text-left{text-align:left}.text-center{text-align:center}.text-2xl{font-size:1.5rem;line-height:2rem}.text-3xl{font-size:1.875rem;line-height:2.25rem}.text-4xl{font-size:2.25rem;line-height:2.5rem}.text-base{font-size:1rem;line-height:1.5rem}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.font-bold{font-weight:700}.font-extrabold{font-weight:800}.font-medium{font-weight:500}.font-semibold{font-weight:600}.uppercase{text-transform:uppercase}.leading-6{line-height:1.5rem}.leading-8{line-height:2rem}.tracking-tight{letter-spacing:-0.025em}.tracking-wide{letter-spacing:0.025em}.tracking-wider{letter-spacing:0.05em}.text-gray-300{--tw-text-opacity:1;color:rgb(209 213 219 / var(--tw-text-opacity, 1))}.text-gray-400{--tw-text-opacity:1;color:rgb(156 163 175 / var(--tw-text-opacity, 1))}.text-gray-500{--tw-text-opacity:1;color:rgb(107 114 128 / var(--tw-text-opacity, 1))}.text-gray-600{--tw-text-opacity:1;color:rgb(75 85 99 / var(--tw-text-opacity, 1))}.text-gray-700{--tw-text-opacity:1;color:rgb(55 65 81 / var(--tw-text-opacity, 1))}.text-gray-900{--tw-text-opacity:1;color:rgb(17 24 39 / var(--tw-text-opacity, 1))}.text-indigo-200{--tw-text-opacity:1;color:rgb(199 210 254 / var(--tw-text-opacity, 1))}.text-indigo-500{--tw-text-opacity:1;color:rgb(99 102 241 / var(--tw-text-opacity, 1))}.text-indigo-600{--tw-text-opacity:1;color:rgb(79 70 229 / var(--tw-text-opacity, 1))}.text-indigo-700{--tw-text-opacity:1;color:rgb(67 56 202 / var(--tw-text-opacity, 1))}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.shadow{--tw-shadow:0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-lg{--tw-shadow:0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.transition{transition-property:color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.duration-150{transition-duration:150ms}.ease-in-out{transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1)}.hover\:border-gray-300:hover{--tw-border-opacity:1;border-color:rgb(209 213 219 / var(--tw-border-opacity, 1))}.hover\:bg-gray-100:hover{--tw-bg-opacity:1;background-color:rgb(243 244 246 / var(--tw-bg-opacity, 1))}.hover\:bg-gray-50:hover{--tw-bg-opacity:1;background-color:rgb(249 250 251 / var(--tw-bg-opacity, 1))}.hover\:bg-indigo-200:hover{--tw-bg-opacity:1;background-color:rgb(199 210 254 / var(--tw-bg-opacity, 1))}.hover\:bg-indigo-50:hover{--tw-bg-opacity:1;background-color:rgb(238 242 255 / var(--tw-bg-opacity, 1))}.hover\:bg-indigo-600:hover{--tw-bg-opacity:1;background-color:rgb(79 70 229 / var(--tw-bg-opacity, 1))}.hover\:bg-indigo-700:hover{--tw-bg-opacity:1;background-color:rgb(67 56 202 / var(--tw-bg-opacity, 1))}.hover\:text-gray-300:hover{--tw-text-opacity:1;color:rgb(209 213 219 / var(--tw-text-opacity, 1))}.hover\:text-gray-500:hover{--tw-text-opacity:1;color:rgb(107 114 128 / var(--tw-text-opacity, 1))}.hover\:text-gray-700:hover{--tw-text-opacity:1;color:rgb(55 65 81 / var(--tw-text-opacity, 1))}.hover\:text-gray-800:hover{--tw-text-opacity:1;color:rgb(31 41 55 / var(--tw-text-opacity, 1))}.hover\:text-gray-900:hover{--tw-text-opacity:1;color:rgb(17 24 39 / var(--tw-text-opacity, 1))}.focus\:outline-none:focus{outline:2px solid transparent;outline-offset:2px}.focus\:ring-2:focus{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000)}.focus\:ring-inset:focus{--tw-ring-inset:inset}.focus\:ring-indigo-500:focus{--tw-ring-opacity:1;--tw-ring-color:rgb(99 102 241 / var(--tw-ring-opacity, 1))}.focus\:ring-offset-2:focus{--tw-ring-offset-width:2px}@media (min-width: 640px){.sm\:ml-3{margin-left:0.75rem}.sm\:ml-6{margin-left:1.5rem}.sm\:mt-0{margin-top:0px}.sm\:mt-5{margin-top:1.25rem}.sm\:mt-8{margin-top:2rem}.sm\:flex{display:flex}.sm\:hidden{display:none}.sm\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.sm\:items-center{align-items:center}.sm\:justify-center{justify-content:center}.sm\:gap-x-8{column-gap:2rem}.sm\:gap-y-12{row-gap:3rem}.sm\:space-x-8 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(2rem * var(--tw-space-x-reverse));margin-left:calc(2rem * calc(1 - var(--tw-space-x-reverse)))}.sm\:px-6{padding-left:1.5rem;padding-right:1.5rem}.sm\:py-24{padding-top:6rem;padding-bottom:6rem}.sm\:text-3xl{font-size:1.875rem;line-height:2.25rem}.sm\:text-4xl{font-size:2.25rem;line-height:2.5rem}.sm\:text-5xl{font-size:3rem;line-height:1}.sm\:text-lg{font-size:1.125rem;line-height:1.75rem}}@media (min-width: 768px){.md\:mt-0{margin-top:0px}.md\:mt-5{margin-top:1.25rem}.md\:grid{display:grid}.md\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.md\:grid-cols-3{grid-template-columns:repeat(3, minmax(0, 1fr))}.md\:gap-8{gap:2rem}.md\:gap-x-8{column-gap:2rem}.md\:gap-y-10{row-gap:2.5rem}.md\:space-y-0 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0px * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0px * var(--tw-space-y-reverse))}.md\:px-10{padding-left:2.5rem;padding-right:2.5rem}.md\:py-4{padding-top:1rem;padding-bottom:1rem}.md\:text-6xl{font-size:3.75rem;line-height:1}.md\:text-lg{font-size:1.125rem;line-height:1.75rem}.md\:text-xl{font-size:1.25rem;line-height:1.75rem}}@media (min-width: 1024px){.lg\:col-span-2{grid-column:span 2 / span 2}.lg\:mt-0{margin-top:0px}.lg\:flex{display:flex}.lg\:grid{display:grid}.lg\:flex-shrink-0{flex-shrink:0}.lg\:grid-cols-3{grid-template-columns:repeat(3, minmax(0, 1fr))}.lg\:items-center{align-items:center}.lg\:justify-between{justify-content:space-between}.lg\:gap-8{gap:2rem}.lg\:px-8{padding-left:2rem;padding-right:2rem}.lg\:py-16{padding-top:4rem;padding-bottom:4rem}.lg\:py-24{padding-top:6rem;padding-bottom:6rem}.lg\:py-32{padding-top:8rem;padding-bottom:8rem}.lg\:text-center{text-align:center}.lg\:text-2xl{font-size:1.5rem;line-height:2rem}}@media (min-width: 1280px){.xl\:col-span-1{grid-column:span 1 / span 1}.xl\:col-span-2{grid-column:span 2 / span 2}.xl\:mt-0{margin-top:0px}.xl\:grid{display:grid}.xl\:grid-cols-3{grid-template-columns:repeat(3, minmax(0, 1fr))}.xl\:gap-8{gap:2rem}.xl\:text-center{text-align:center}}</style></head>
+  <body class="bg-white">
+    <nav x-data="{ isOpen: false }" class="bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between h-16">
+          <div class="flex">
+            <div class="flex-shrink-0 flex items-center">
+              <a  class="flex items-center space-x-2">
+                <svg class="h-8 w-8 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                </svg>
+                <span class="text-xl font-bold text-gray-900">WAPDA.<span class="text-indigo-600">DIGITAL</span></span>
+              </a>
+            </div>
+            <div class="hidden sm:ml-6 sm:flex sm:space-x-8">
+              <a href="#release" class="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium transition duration-150 ease-in-out">
+                Releases
+              </a>
+              
+              <a href="#features" class="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium transition duration-150 ease-in-out">
+                Features
+              </a>
+              <a href="#footer" class="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium transition duration-150 ease-in-out">
+                Contact
+              </a>
+            </div>
+          </div>
+          <div class="hidden sm:ml-6 sm:flex sm:items-center">
+            
+            <div class="flex items-center space-x-4">
+
+              <a href="/register.html" class="bg-indigo-600 text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 transition duration-150 ease-in-out">
+                Get Access
+              </a>
+            </div>
+            
+          </div>
+          <div class="-mr-2 flex items-center sm:hidden">
+            <button @click="isOpen = !isOpen" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+              <span class="sr-only">Open main menu</span>
+              <svg class="h-6 w-6" x-show="!isOpen" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+              </svg>
+              <svg class="h-6 w-6" x-show="isOpen" fill="none" viewBox="0 0 24 24" stroke="currentColor" style="display: none;">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div x-show="isOpen" class="sm:hidden" style="display: none;">
+        <div class="pt-2 pb-3 space-y-1">
+          <a href="#release" class="block pl-3 pr-4 py-2 border-l-4 text-base font-medium border-transparent text-gray-600 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-800">
+            Releases
+          </a>
+          
+          <a href="#features" class="block pl-3 pr-4 py-2 border-l-4 text-base font-medium border-transparent text-gray-600 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-800">
+            Features
+          </a>
+          <a href="#footer" class="block pl-3 pr-4 py-2 border-l-4 text-base font-medium border-transparent text-gray-600 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-800">
+            Contact
+          </a>
+        </div>
+        
+        <div class="pt-4 pb-3 border-t border-gray-200">
+          <div class="space-y-1">
+            <a href="/auth/register" class="block px-4 py-2 text-base font-medium text-gray-500 hover:text-gray-800 hover:bg-gray-100">
+              Get Early Access
+            </a>
+          </div>
+        </div>
+        
+      </div>
+    </nav>
+
+    <div class="max-w-full mx-auto">
+      <!-- py-6 sm:px-6 lg:px-8 -->
+         
+<!-- Hero Section -->
+<div class="relative bg-white">
+  <div class="max-w-7xl mx-auto py-20 px-4 sm:py-24 sm:px-6 lg:py-32 lg:px-8">
+    <div class="text-center">
+      <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
+        <span class="block">Get your electricity bills</span>
+        <span class="block text-indigo-600">directly on WhatsApp</span>
+      </h1>
+      <p class="mt-3 max-w-2xl mx-auto text-base text-gray-500 sm:mt-5 sm:text-lg md:mt-5 md:text-xl">
+        Never miss a bill payment again. Register once and receive your
+        electricity bills automatically on WhatsApp every month. Simple,
+        convenient, and reliable.
+      </p>
+      <div class="mt-5 sm:mt-8 sm:flex sm:justify-center">
+        
+        <div class="rounded-md shadow">
+          <a href="/register.html" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10">
+            Register Now
+          </a>
+        </div>
+        <div class="mt-3 sm:mt-0 sm:ml-3">
+          <a href="#screenshot" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10">
+            Know more
+          </a>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- countdown section -->
+
+<div id="release" class="text-center space-y-6 text-white bg-indigo-600 p-6">
+    <p class="text-lg sm:text-xl">We are launching soon. Stay tuned!</p>
+
+    <!-- Countdown Timer -->
+    <div id="countdown" class="flex justify-center space-x-6 text-3xl sm:text-5xl font-semibold">
+        <div>
+            <span id="days">00</span>
+            <p class="text-sm sm:text-lg">Days</p>
+        </div>
+        <div>
+            <span id="hours">00</span>
+            <p class="text-sm sm:text-lg">Hours</p>
+        </div>
+        <div>
+            <span id="minutes">00</span>
+            <p class="text-sm sm:text-lg">Minutes</p>
+        </div>
+        <div>
+            <span id="seconds">00</span>
+            <p class="text-sm sm:text-lg">Seconds</p>
+        </div>
+    </div>
+</div>
+
+
+<!-- Features Section -->
+<div class="bg-gray-100">
+  <div id="features" class="py-12">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center">
+        <h2 class="text-lg md:text-xl lg:text-2xl text-indigo-600 font-semibold tracking-wide uppercase pb-3">
+          Features
+        </h2>
+      </div>
+      <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl text-left">
+        A better way to receive your bills
+      </p>
+
+      <div class="mt-10">
+        <dl class="space-y-10 md:space-y-0 md:grid md:grid-cols-3 md:gap-x-8 md:gap-y-10">
+          <div class="relative">
+            <dt>
+              <div class="absolute flex items-center justify-center h-14 w-14 rounded-md bg-indigo-500 text-white">
+                <span class="text-3xl">📝</span>
+              </div>
+              <p class="ml-16 text-xl leading-6 font-medium text-gray-900">
+                Easy Registration
+              </p>
+            </dt>
+            <dd class="mt-2 ml-16 text-base text-gray-500">
+              Register once with your bill reference number and WhatsApp number.
+              That's all we need to get you started!
+            </dd>
+          </div>
+
+          <div class="relative">
+            <dt>
+              <div class="absolute flex items-center justify-center h-14 w-14 rounded-md bg-indigo-500 text-white">
+                <span class="text-3xl">⚡</span>
+              </div>
+              <p class="ml-16 text-xl leading-6 font-medium text-gray-900">
+                Instant Delivery
+              </p>
+            </dt>
+            <dd class="mt-2 ml-16 text-base text-gray-500">
+              Receive your bills instantly on WhatsApp as soon as they are
+              generated. No delays, no hassle.
+            </dd>
+          </div>
+
+          <div class="relative">
+            <dt>
+              <div class="absolute flex items-center justify-center h-14 w-14 rounded-md bg-indigo-500 text-white">
+                <span class="text-3xl">🔔</span>
+              </div>
+              <p class="ml-16 text-xl leading-6 font-medium text-gray-900">
+                Due Date Alerts
+              </p>
+            </dt>
+            <dd class="mt-2 ml-16 text-base text-gray-500">
+              Get timely reminders before your bill is due to avoid late payment
+              fees and service interruptions.
+            </dd>
+          </div>
+
+          <div class="relative">
+            <dt>
+              <div class="absolute flex items-center justify-center h-14 w-14 rounded-md bg-indigo-500 text-white">
+                <span class="text-3xl">💡</span>
+              </div>
+              <p class="ml-16 text-xl leading-6 font-medium text-gray-900">
+                Load Shedding Alerts
+              </p>
+            </dt>
+            <dd class="mt-2 ml-16 text-base text-gray-500">
+              Stay informed about planned power outages in your area with
+              advance notifications sent directly to your WhatsApp.
+            </dd>
+          </div>
+
+          <div class="relative">
+            <dt>
+              <div class="absolute flex items-center justify-center h-14 w-14 rounded-md bg-indigo-500 text-white">
+                <span class="text-3xl">📊</span>
+              </div>
+              <p class="ml-16 text-xl leading-6 font-medium text-gray-900">
+                Usage Tracking
+              </p>
+            </dt>
+            <dd class="mt-2 ml-16 text-base text-gray-500">
+              Monitor your electricity consumption patterns and compare with
+              previous months to help manage your usage more efficiently.
+            </dd>
+          </div>
+
+          <div class="relative">
+            <dt>
+              <div class="absolute flex items-center justify-center h-14 w-14 rounded-md bg-indigo-500 text-white">
+                <span class="text-3xl">🔒</span>
+              </div>
+              <p class="ml-16 text-xl leading-6 font-medium text-gray-900">
+                Secure &amp; Reliable
+              </p>
+            </dt>
+            <dd class="mt-2 ml-16 text-base text-gray-500">
+              Your data is secure with us. We use industry-standard encryption
+              to protect your information and ensure reliable delivery.
+            </dd>
+          </div>
+        </dl>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- slider -->
+
+<div id="screenshot" class="relative w-full max-w-5xl mx-auto">
+    <div class="max-w-4xl mx-auto text-center py-8">
+  <h2 class="text-3xl font-bold text-indigo-600">Service Screenshots</h2>
+  <p class="text-gray-600 mt-2">Take a look at how our service works!</p>
+</div>
+
+  <!-- Swiper -->
+  <div class="swiper mySwiper rounded-lg overflow-hidden">
+    <div class="swiper-wrapper">
+      <!-- Slide 1 -->
+      <div class="swiper-slide">
+        <img
+          src="images/home.PNG"
+          alt="Service homepage"
+          class="w-full h-auto object-cover"
+        />
+      </div>
+      <!-- Slide 2 -->
+      <div class="swiper-slide">
+        <img
+          src="images/dashboard.PNG"
+          alt="Service dashboard"
+          class="w-full h-auto object-cover"
+        />
+      </div>
+      <!-- Slide 3 -->
+      <div class="swiper-slide">
+        <img
+          src="images/authentication.PNG"
+          alt="Service authentication"
+          class="w-full h-auto object-cover"
+        />
+      </div>
+    </div>
+    <!-- Pagination (dots) -->
+    <div class="swiper-pagination"></div>
+    <!-- Navigation Buttons -->
+    <div
+      class="swiper-button-next bg-gray-900/50 rounded-full p-3 text-white"
+    ></div>
+    <div
+      class="swiper-button-prev bg-gray-900/50 rounded-full p-3 text-white"
+    ></div>
+  </div>
+</div>
+
+
+
+<!-- How It Works Section -->
+<div class="bg-gray-100 py-12">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="lg:text-center">
+      <div class="text-center">
+        <h2 class="text-base text-indigo-600 font-semibold tracking-wide uppercase">
+          How it works
+        </h2>
+      </div>
+    </div>
+
+    <div class="mt-10">
+      <div class="relative">
+        <div class="absolute inset-0 flex items-center" aria-hidden="true">
+          <div class="w-full border-t border-gray-300"></div>
+        </div>
+        <div class="relative flex justify-center">
+          <span class="px-3 bg-gray-100 text-lg font-medium text-gray-900">
+            Simple 2-step process
+          </span>
+        </div>
+      </div>
+
+      <div class="mt-10 max-w-4xl mx-auto grid gap-8 grid-cols-2">
+        <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
+          <div class="flex-1 bg-white p-6 flex flex-col justify-between">
+            <div class="flex-1">
+              <p class="text-xl font-semibold text-gray-900">1. Register</p>
+              <p class="mt-3 text-base text-gray-500">
+                Create an account with your basic information and bill reference
+                number.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
+          <div class="flex-1 bg-white p-6 flex flex-col justify-between">
+            <div class="flex-1">
+              <p class="text-xl font-semibold text-gray-900">2. Receive</p>
+              <p class="mt-3 text-base text-gray-500">
+                Start receiving your bills automatically on WhatsApp every
+                month.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- pricing -->
+
+
+<div class="text-center py-12">
+    <h1 class="text-3xl font-bold text-indigo-600 mb-4">
+        Beta Pricing - Limited Time Offer!
+    </h1>
+    <p class="text-gray-600 mb-6">
+        This special pricing is available only during the beta phase. Prices will rise after full production. 
+        Register early to lock in the best rates!
+    </p>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+        <!-- Plan 1 -->
+        <div class="bg-white p-8 rounded-lg shadow-md border border-gray-200">
+            <h3 class="text-2xl font-bold text-gray-900">12 Months Plan</h3>
+            <p class="text-gray-600 mt-2">Get uninterrupted access for 1 year.</p>
+            <div class="mt-4 text-xl font-semibold text-blue-600">
+                <span class="line-through text-gray-500">Rs 600</span> → Rs 250
+            </div>
+        </div>
+
+        <!-- Plan 2 -->
+        <div class="bg-white p-8 rounded-lg shadow-md border border-gray-200">
+            <h3 class="text-2xl font-bold text-gray-900">40 Months Plan</h3>
+            <p class="text-gray-600 mt-2">Enjoy long-term access at the best value.</p>
+            <div class="mt-4 text-xl font-semibold text-blue-600">
+                <span class="line-through text-gray-500">Rs 1200</span> → Rs 600
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Call to Action Section -->
+<div class="bg-indigo-600">
+  <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between">
+    <h2 class="text-3xl font-extrabold tracking-tight text-white sm:text-4xl">
+      <span class="block">Ready to get started?</span>
+      <span class="block text-indigo-200">Join thousands of satisfied users today.</span>
+    </h2>
+    <div class="mt-8 flex lg:mt-0 lg:flex-shrink-0">
+      <div class="inline-flex rounded-md shadow">
+        <a href="/register.html" class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-indigo-50">
+          Get started
+        </a>
+      </div>
+      <div class="ml-3 inline-flex rounded-md shadow">
+        <a href="#features" class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-500 hover:bg-indigo-600">
+          Learn more
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- stats section -->
+
+<div id="stats" class="bg-gray-900 text-white py-12 px-6 text-center  ">
+    <h2 class="text-3xl sm:text-4xl font-bold mb-6">Current Stats</h2>
+    
+    <div class="flex flex-wrap justify-center gap-8 text-3xl sm:text-4xl font-semibold">
+        <!-- Registered Users -->
+        <div class="flex flex-col items-center">
+            <span class="text-blue-400">👥 325</span>
+            <p class="text-sm sm:text-lg">Registered Users</p>
+        </div>
+
+        <!-- Average Rating -->
+        <div class="flex flex-col items-center">
+            <span class="text-yellow-400 flex items-center">
+                ⭐ 4.9 
+                <span class="text-lg sm:text-xl text-gray-400">(120 Reviews)</span>
+            </span>
+            <p class="text-sm sm:text-lg">Average Rating</p>
+        </div>
+
+        <!-- Other Stats (Example) -->
+        <div class="flex flex-col items-center">
+            <span class="text-green-400">🚀 50K+</span>
+            <p class="text-sm sm:text-lg">Total Visits</p>
+        </div>
+
+        <div class="flex flex-col items-center">
+            <span class="text-purple-400">🔗 1.2K</span>
+            <p class="text-sm sm:text-lg">Active Sessions</p>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+    
+
+
+<footer id="footer"  class="bg-gray-900">
+  <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
+    <div class="xl:grid xl:grid-cols-3 xl:gap-8">
+      <div class="space-y-8 xl:col-span-1">
+        <div class="flex items-center space-x-2">
+          <svg class="h-8 w-8 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+          </svg>
+          <span class="text-xl font-bold text-white">WAPDA.<span class="text-indigo-500">DIGITAL</span></span>
+        </div>
+        <p class="text-gray-400 text-base">
+          Making bill delivery simple and convenient through WhatsApp integration.
+        </p>
+
+      </div>
+      
+      <!-- Contact Section -->
+      <div class="mt-12 xl:mt-0 xl:col-span-2 flex flex-col items-center">
+        <h3 class="text-lg font-semibold text-white tracking-wider uppercase mb-4">
+          Contact Us on WhatsApp
+        </h3>
+        <a href="https://wa.me/+93472818235" target="_blank" class="bg-green-500 text-white py-3 px-6 rounded-lg text-lg font-semibold flex items-center gap-2 shadow-lg hover:bg-green-600 transition">
+          <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+            <path fill-rule="evenodd" d="M12 0C5.372 0 0 5.372 0 12c0 2.04.508 3.955 1.4 5.64L.05 23.94l6.424-1.684C8.113 23.49 10 24 12 24c6.628 0 12-5.372 12-12S18.628 0 12 0zm0 21.93c-1.833 0-3.606-.482-5.165-1.37l-.368-.212-3.81 1.002.993-3.693-.24-.378A9.922 9.922 0 0 1 2.07 12C2.07 6.505 6.506 2.07 12 2.07S21.93 6.506 21.93 12 17.495 21.93 12 21.93zm5.287-7.2c-.288-.146-1.7-.835-1.96-.93-.263-.098-.454-.146-.65.146-.198.293-.75.93-.92 1.123-.173.197-.34.22-.627.073-.29-.146-1.218-.45-2.32-1.438-.857-.76-1.436-1.7-1.607-1.99-.173-.293-.018-.45.128-.597.13-.13.293-.34.438-.508.146-.17.195-.293.293-.487.1-.195.05-.366-.025-.513-.075-.146-.65-1.57-.89-2.152-.235-.562-.47-.487-.648-.497-.173-.008-.373-.01-.572-.01a1.108 1.108 0 0 0-.795.366c-.27.293-1.037 1.013-1.037 2.467s1.06 2.866 1.208 3.063c.146.197 2.088 3.188 5.067 4.467 1.87.81 2.604.877 3.537.74.572-.09 1.7-.693 1.94-1.363.24-.67.24-1.24.17-1.363-.07-.122-.263-.196-.55-.34z"></path>
+          </svg>
+          Chat Now
+        </a>
+      </div>
+    </div>
+
+    <div class="mt-12 border-t border-gray-800 pt-8">
+      <p class="text-base text-gray-400 xl:text-center">
+        © 2024 WAPDA.DIGITAL. All rights reserved.
+      </p>
+    </div>
+  </div>
+</footer>
+
+
+    <!-- script for countdown -->
+     <script>
+        // Set the release date (YYYY, MM - 1, DD, HH, MM, SS)
+        const launchDate = new Date(2025, 5, 20, 13, 60, 60).getTime();  
+
+        function updateCountdown() {
+            const now = new Date().getTime();
+            const timeLeft = launchDate - now;
+
+            if (timeLeft > 0) {
+                document.getElementById("days").innerText = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
+                document.getElementById("hours").innerText = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                document.getElementById("minutes").innerText = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
+                document.getElementById("seconds").innerText = Math.floor((timeLeft % (1000 * 60)) / 1000);
+            } else {
+                document.getElementById("countdown").innerHTML = "<p class='text-4xl font-bold'>🎉 We Are Live! 🎉</p>";
+            }
+        }
+
+        setInterval(updateCountdown, 1000);
+        updateCountdown();
+    </script>
+
+    <!-- script for slider -->
+     <script>
+  var swiper = new Swiper(".mySwiper", {
+    spaceBetween: 20,
+    loop: true,
+    autoplay: {
+      delay: 2000, // 2 seconds
+      disableOnInteraction: false,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+</script>
+
+    
+</body></html>
